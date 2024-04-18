@@ -13,7 +13,7 @@ driver.get("https://sattu2007.github.io/SimpleWebPage/")  # Update this with the
 time.sleep(2)  # Adding a delay to see the result
 
 # Assert some condition to verify the result
-assert "TinDog" in driver.title
+assert "Bootstrap Components" in driver.title
 
 # Take a screenshot
 timestamp = time.strftime("%Y%m%d-%H%M%S")
